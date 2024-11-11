@@ -1,0 +1,98 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+    margin:0%
+}
+h1 {
+    font-weight: 1000;
+    font-size: xx-large;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    
+    font-weight: 500;
+    font-size: x-large;
+}
+ul {
+    padding-left: 19px;
+}
+p {
+    font-weight: 300;
+    font-size: 95%
+}
+.Big-container {
+    max-width: 1255px;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1255px;
+    width: 100%;
+}
+@media (max-width: 720px) {
+    .flex-container {
+        flex-direction: column;
+        gap: 30px
+    }
+}    
+.columnas {
+    flex: 1 1 0px;
+    flex-shrink: 3;
+}
+#photo {
+    margin-top: 30px;
+    border-radius: 50%;
+    height: 130px;
+    border: 2px solid #f1faee;
+}
+#Cabecera {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #264653;
+    color: #2a9d8f;
+    gap: 0px;
+    border: 0px;
+    padding: 0%;
+}
+#Experiencia {
+    display: flex;
+    background-color: #f1faee;
+    justify-content: center;
+}
+#Proyectos {
+    display: flex;
+    justify-content: center;
+    background-color: #a8dadc;
+}
+#Intereses {
+    display: flex;
+    background-color: #f1faee;
+    justify-content: center; 
+}
+#Contacto {
+    display: flex;
+    background-color: #457b9d;
+    justify-content: center;
+    color: #a8dadc;
+}
+.svg_con {
+    height: 70px;
+    margin: 25px;
+}
+#contact-container {
+    display: flex;
+    justify-content: center;
+}
